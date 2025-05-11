@@ -1,6 +1,4 @@
 # BalatroSaves
-
-## Description
 BalatroSaves is an unofficial script for convinient Balatro steam and android save files syncing. The script allows you to transfer your steam save files (even the currently played run know as save.jkr) to your phone and vice versa automatically with just the push of... two buttons.
 ## How does the script work?
 Well it is actually two scripts or rather one python script and one Automate flow chart. They both do the same thing just in they respective environments - one is for your PC, and one you run on your android device using the Automate app.
