@@ -19,7 +19,7 @@ The core functionality is pretty simple. Both scripts just copy Balatro save fil
 
 First you need to create a Google Cloud project. To do so:
 1. Go to this site: https://console.cloud.google.com/projectcreate. Name the project, however you like but for convenience just stick with BalatroSaves. Then click Create.
-2. In the Google Cloud console, go to Menu > Google Auth platform > Clients. <br />[Go to Clients](https://console.cloud.google.com/auth/clients)]
+2. In the Google Cloud console, go to Menu > Google Auth platform > Clients. <br />[[Go to Clients](https://console.cloud.google.com/auth/clients)]
 3. Click Create Client.
 4. Click Application type > Desktop app.
 5. In the Name field, type a name for the credential. This name is only shown in the Google Cloud console.
