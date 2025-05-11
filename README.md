@@ -28,7 +28,7 @@ First you need to create a Google Cloud project. To do so:
 7. Save the downloaded JSON file as credentials.json, and move the file to BalatroSaves/PCv2.0/credentials.
 8. Create a folder on your Google Drive. After you do this, open the folder and check the URL: 
 This is your folder ID. Copy it and paste it into BalatroSaves.py: PARENT_FOLDER_ID = “paste folder ID here”.
-9. Install the dependencies found in 'requirements.txt'.
+9. Install the dependencies found in `requirements.txt`.
     
 ```bash
     pip install -r requirements.txt
