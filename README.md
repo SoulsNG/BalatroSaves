@@ -20,8 +20,8 @@ Go to [Releases](releases) and download the latest PC and Android files respecti
 ### PC
 
 First you need to create a Google Cloud project. To do so:
-1. Go to this site: https://console.cloud.google.com/projectcreate. Name the project, however you like but for convenience just stick with BalatroSaves. Then click Create.
-2. In the Google Cloud console, go to Menu > Google Auth platform > Clients. <br />[[Go to Clients](https://console.cloud.google.com/auth/clients)]
+1. Go to https://console.cloud.google.com/projectcreate. Name the project, however you like but for convenience just stick with BalatroSaves. Then click Create.
+2. In the Google Cloud console, go to Menu > Google Auth platform > Clients. [[link](https://console.cloud.google.com/auth/clients)]
 3. Click Create Client.
 4. Click Application type > Desktop app.
 5. In the Name field, type a name for the credential. This name is only shown in the Google Cloud console.
@@ -42,3 +42,6 @@ This is your folder ID. Copy it and paste it into BalatroSaves.py: `PARENT_FOLDE
 2. Go to Automate settings and make sure you set Privileged service start method as the superuser.
 3. Import Balatro Saves .flo file.
 4. Make sure to give all the needed permissions and privileges for the flow and the Automate app to ensure the script will run correctly.  
+
+## Usage
+to do
