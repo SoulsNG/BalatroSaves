@@ -25,7 +25,8 @@ First you need to create a Google Cloud project. To do so:
 5. In the Name field, type a name for the credential. This name is only shown in the Google Cloud console.
 6. Click Create. The newly created credential appears under "OAuth 2.0 Client IDs."
 7. Save the downloaded JSON file as credentials.json, and move the file to `BalatroSaves/PCv2.0/credentials`.
-8. Create a folder on your Google Drive. After you do this, open the folder and check the URL: 
+8. Create a folder on your Google Drive. After you do this, open the folder and check the URL: <br />
+> https://drive.google.com/drive/folders/**1ZfOrJvRS_IJ7LO__IsGsSDVbZfbogZVl**?hl... <br />
 This is your folder ID. Copy it and paste it into BalatroSaves.py: `PARENT_FOLDER_ID = “paste folder ID here”`.
 9. Install the dependencies found in `requirements.txt`.
     
