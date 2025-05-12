@@ -1,6 +1,6 @@
 # BalatroSaves
 
-BalatroSaves is an unofficial script for convinient Balatro steam and android save files syncing. The script allows you to transfer your steam save files (even the currently played run know as save.jkr) to your phone and vice versa automatically with just the push of... two buttons.
+BalatroSaves is an unofficial script for convinient Balatro steam and android save files syncing. The script allows you to transfer your steam save files (even the currently played run also known as save.jkr) to your phone and vice versa, automatically with just the push of... two buttons.
 
 ## How does the script work?
 
@@ -13,9 +13,11 @@ The core functionality is pretty simple. Both scripts just copy Balatro save fil
 
 ## Downloads
 
-
+Go to [releases](releases) and download the PC and Android files respectively.
 
 ## Installation
+
+### PC
 
 First you need to create a Google Cloud project. To do so:
 1. Go to this site: https://console.cloud.google.com/projectcreate. Name the project, however you like but for convenience just stick with BalatroSaves. Then click Create.
@@ -26,7 +28,7 @@ First you need to create a Google Cloud project. To do so:
 6. Click Create. The newly created credential appears under "OAuth 2.0 Client IDs."
 7. Save the downloaded JSON file as credentials.json, and move the file to `BalatroSaves/PCv2.0/credentials`.
 8. Create a folder on your Google Drive. After you do this, open the folder and check the URL: <br />
-> https://drive.google.com/drive/folders/**1ZfOrJvRS_IJ7LO__IsGsSDVbZfbogZVl**?hl... <br />
+![](assets/installation.png) <br />
 This is your folder ID. Copy it and paste it into BalatroSaves.py: `PARENT_FOLDER_ID = “paste folder ID here”`.
 9. Install the dependencies found in `requirements.txt`.
     
@@ -34,4 +36,9 @@ This is your folder ID. Copy it and paste it into BalatroSaves.py: `PARENT_FOLDE
     pip install -r requirements.txt
  ```
 
-[python-mini-projects](https://github.com/Python-World/python-mini-projects)
+### Android
+
+1. Download Automate app. <br /> https://llamalab.com/automate/
+2. Go to Automate settings and make sure you set Privileged service start method as the superuser.
+3. Import Balatro Saves .flo file.
+4. Make sure to give all the needed permissions and privileges for the flow and the Automate app to ensure the script will run correctly.  
