@@ -13,7 +13,7 @@ The core functionality is pretty simple. Both scripts just copy Balatro save fil
 
 ## Downloads
 
-Go to [Releases](releases) and download the latest PC and Android files respectively.
+Go to [Releases](https://github.com/SoulsNG/BalatroSaves/releases) and download the latest PC and Android files respectively.
 
 ## Installation
 
