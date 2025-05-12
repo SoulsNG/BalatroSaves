@@ -47,5 +47,5 @@ This is your folder ID. Copy it and paste it into BalatroSaves.py: `PARENT_FOLDE
 
 After setting everything up you should just be able to run the BalatroSaves.py from the terminal. The script should automatically decide to upload or to download files. It also automatically puts them in your saves folder. After it runs you should just be able to play the game. <br />
 When it comes to Android version of the script the principle is the same. You just run it in Automate app and after it runs all saves should be either backed up or uploaded to your device. <br />
-**Remember that you will need to run the scripts every time you launch or close the game on both Android and PC.**
+**Remember that you will need to run the corresponding script every time you launch or close the game on both Android and PC.**
 
